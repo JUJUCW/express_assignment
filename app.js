@@ -28,11 +28,9 @@ app.get('/portfolio', (req, res) => {
 app.get('/contact', (req, res) => {
     res.render('contact');
 });
-// app.get('/:contact', (req, res) => {
-//     res.send(`<h1>${req.params.contact} is a popular language</h1>`);
-// });
+
 
 
 app.listen(port, () => {
-    console.log(`nodemon is running on http://localhost:${port}`);
+    console.log(`Express is running on http://localhost:${port}`);
 });
